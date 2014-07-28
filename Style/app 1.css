@@ -1,0 +1,96 @@
+#lightbulb
+{
+    font-size: 100px;
+    display: block;
+    text-align: center;
+}
+
+h1
+{
+    padding: 0;
+    margin: 10px 0;
+}
+
+.chat-user-avatar
+{
+    font-size: 40px;
+    background: #ccc;
+    padding: 5px 10px;
+}
+
+.feature-icon
+{
+    font-size: 44px;
+    padding: 0;
+    line-height: 64px;
+    width: 64px;
+    text-align: center;
+    opacity: .8;
+}
+
+.app-content-loading
+{
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    background: #fff;
+    position: relative;
+}
+
+.loading-spinner
+{
+    position: absolute;
+    font-size: 50px;
+    left: 50%;
+    top: 50%;
+    margin-left: -25px;
+    margin-top: -25px;
+}
+/**
+		* Carousel with image and text (horizontal)
+		**/
+#carousel-image-text-horizontal
+{
+    width: 940px;
+    height: 70px;
+    margin: 0 auto;
+}
+#carousel-image-text-horizontal .touchcarousel-item
+{
+    width: 216px;
+    height: 60px;
+    margin-right: 12px;
+    background-color: #F0F3F3;
+    padding: 5px;
+    position: relative;
+}
+#carousel-image-text-horizontal img, #carousel-image-text-horizontal h4, #carousel-image-text-horizontal p
+{
+    float: left;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+#carousel-image-text-horizontal img
+{
+    width: 60px;
+    height: 60px;
+}
+#carousel-image-text-horizontal .rblock
+{
+    width: 138px;
+    float: left;
+    margin-left: 7px;
+}
+#carousel-image-text-horizontal h4
+{
+    font: bold 13px/20px Helvetica, Arial, sans-serif;
+    color: #000;
+    width: 140px;
+}
+#carousel-image-text-horizontal p
+{
+    font: normal 13px/20px Helvetica, Arial, sans-serif;
+    color: #555;
+}

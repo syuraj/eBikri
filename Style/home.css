@@ -1,0 +1,38 @@
+﻿/**		* Carousel with image and text (horizontal)		**/
+.touchcarousel.three-d
+{
+    width: 100%;
+    height: 160px;
+    margin: 10px auto 10px 5px;
+}
+.touchcarousel.three-d .touchcarousel-item
+{
+    width: 120px;
+    margin-right: 12px;
+    background-color: #F0F3F3;
+    padding: 5px;
+    position: relative;
+}
+.touchcarousel.three-d .touchcarousel-item .rblock
+{
+    line-height: 1em;
+}
+.touchcarousel.three-d img, .touchcarousel.three-d h4, .touchcarousel.three-d p
+{
+    float: left;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.touchcarousel.three-d img
+{
+    width: 120px;
+    height: 120px;
+}
+
+.touchcarousel.three-d p
+{
+    font: normal 13px/20px Helvetica, Arial, sans-serif;
+    color: #555;
+}
